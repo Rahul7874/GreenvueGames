@@ -15,7 +15,6 @@ body{
     color: #fff;
     background: #007bff;
 }
-
 .start_btn,
 .info_box,
 .quiz_box,
@@ -431,7 +430,7 @@ footer button.show{
 .logo_div{
     display: flex;
     text-align: center;
-    width: 250px;
+    width: 350px;
     position: absolute;
     top: 3%;
     left: 22.5%;

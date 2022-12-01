@@ -234,7 +234,18 @@ label:nth-of-type(2) {
 .Moves{
 	border-style:initial;
 }
+.logo_div{
+    display: flex;
+    text-align: center;
+    width: 350px;
+   margin-left: 50px;
+   margin-top: 20px;
+}
+.logo_div>h1{
+    color: #029f1e;
+    margin-top: 40px;
 
+}
 
 @media screen and (max-width: 600px) {
 	body {
