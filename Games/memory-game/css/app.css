@@ -38,6 +38,7 @@ h3 {
 	color: #545454;
 	font-size: 1.2rem;
 	margin-left: 100px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .dashboard-element {
@@ -114,6 +115,7 @@ label:nth-of-type(2) {
 	margin-left: 100px;
 	width: 30%;
 	max-width: 800px;
+	
 }
 
 .game-board {
@@ -126,6 +128,7 @@ label:nth-of-type(2) {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 3%;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
@@ -245,6 +248,11 @@ label:nth-of-type(2) {
     color: #029f1e;
     margin-top: 40px;
 
+}
+.digit{
+	position: absolute;
+	left: 40%;
+	top: 22%;
 }
 
 @media screen and (max-width: 600px) {
